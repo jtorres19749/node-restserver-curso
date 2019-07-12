@@ -1,0 +1,16 @@
+encriptar psw
+npm install bcrypt@3.0.2
+
+
+undersore 
+
+npm install underscore
+pick -> obtener 
+
+
+
+conectar a atlas (mongoDB )
+compass
+mongodb+srv://cafeusr:4lfr3d0@cluster0-d3iiz.mongodb.net/test
+nodejs
+mongodb+srv://cafeusr:4lfr3d0@cluster0-d3iiz.mongodb.net/cafe?retryWrites=true&w=majority
