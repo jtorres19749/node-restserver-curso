@@ -148,7 +148,7 @@ app.delete('/usuario/:id', (req,res) => {
   Usuario.findByIdAndRemove(id, (err, usuarioBorrado) => {
     
     if (err) {
-      return res.status(400).json ({
+      return res.status(500).json ({
         ok: false,
         err
       })
